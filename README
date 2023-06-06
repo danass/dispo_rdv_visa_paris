@@ -1,0 +1,22 @@
+Fonction
+
+Ce script nodejs verifie toutes les 35 secondes si un nouveau rendez vous pour votre visa est disponible.
+Si un rendez vous est disponible, vous recevez une notification sur Télégram sur votre téléphone et le script s'arrete.
+A vous ensuite de vous connecter pour prendre et choisir le rdv.
+
+
+Utilisation
+
+node rdv.js
+
+
+Pré-requis
+
+1) Installer node
+2) Créer un bot télégram: https://t.me/botfather et obtenez le bot_token. 
+3) Envoyer un 1er message du bot vers votre destinataire depuis télégram. 
+4) Obtenez le telegram_id du destinataire (10 chiffres)
+
+5) Dans le code rdv.js remplacer les id du destinataire et le token du bot.
+
+6) Executer le script.

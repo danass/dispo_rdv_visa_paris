@@ -1,6 +1,6 @@
 const puppeteer = require('puppeteer');
 
-const botToken = 'telegrambot:token'; telegram_token du bot 
+const botToken = 'telegrambot:token'; // telegram_token du bot 
 const chatId = '0000111122'; // telegram_id de la personne à qui le bot envoie un message
 const url_prefecture = "https://pprdv.interieur.gouv.fr/booking/create/989/1"
 

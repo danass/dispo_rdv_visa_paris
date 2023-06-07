@@ -4,6 +4,7 @@ Ce script Node.js vérifie toutes les 35 secondes si un nouveau rendez-vous pour
 
 ## Utilisation
 `npm install puppeteer`
+
 `node rdv.js`
 
 ## Prérequis
